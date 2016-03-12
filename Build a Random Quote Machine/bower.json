@@ -1,0 +1,26 @@
+{
+  "name": "Random Quote",
+  "authors": [
+    "cuent <c.uent@hotmail.com>"
+  ],
+  "description": "Have a set of quotes, that are showed randomly",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "quotes",
+    "random"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}

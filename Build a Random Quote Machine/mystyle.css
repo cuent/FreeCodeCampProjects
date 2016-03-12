@@ -1,0 +1,17 @@
+body{
+    background-image: url(http://i.stack.imgur.com/7YKUD.jpg);
+    padding: 20% 0px;
+}
+
+h1{
+    color:#337ab7;
+    font-family: 'Bangers', cursive;
+    font-size: 500%;
+}
+
+.container{
+    padding: 20px 15px 25px;
+    background: white;
+    border-radius: 15px;
+    min-height: 350px;
+}

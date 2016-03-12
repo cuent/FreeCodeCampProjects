@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <!--random quotes section-->
+    <div class="container">
+        <h1 class="text-center">Random Quotes</h1>
+
+        <blockquote class="blockquote-reverse" style="min-height: 150px;">
+            <p id="quote"></p>
+            <footer><span id="author"></span><cite id="source" title="Source Title"></cite></footer>
+        </blockquote>
+
+        <div class="btn-group pull-right" role="group" aria-label="true">
+            <button id="tweet" type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i></button>
+            <button id="generate" type="button" class="btn btn-primary btn-lg">Quote!</button>
+        </div>
+    </div>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="myjavacript.js"></script>
+</body>
+
+</html>
