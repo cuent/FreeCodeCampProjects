@@ -1,0 +1,32 @@
+.change-width{
+    width: 50%;
+    white-space: nowrap;
+}
+
+.jumbotronStyle{
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+    border-bottom-color: black;
+    margin-bottom: 0px;
+}
+
+.centering{
+    margin: 0 auto;
+}
+
+.nav-tabs>li>a {
+    padding: 0px 0px 0px 0px;
+}
+
+footer{
+    background-color: rgb(71,72,75);
+    color: white;
+    padding: 0 5%
+}
+
+.container-fluid{
+    margin-left: 0px;
+    margin-right: 1px;
+    border: 20px solid black;
+    border-bottom: 0px;
+}

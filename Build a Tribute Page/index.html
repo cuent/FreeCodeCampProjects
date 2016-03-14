@@ -1,30 +1,227 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Tribute Page</title>
-    
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyle.css">
 </head>
+
 <body>
-    <header class="jumbotron">
+    <header class="jumbotron jumbotronStyle">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3">s</div>
-                <div class="col-md-6">DREAM THEATER</div>
-                <div class="col-md-3">s</div>
+                <div class="col-xs-1 col-md-3"></div>
+                <div class="col-xs-10 col-md-6" style="background-color: black;">
+                    <img class="img-responsive centering" src="http://img07.deviantart.net/c2c5/i/2006/093/6/e/dream_theater_by_tyger168.jpg" width="50%">
+                </div>
+                <div class="col-xs-1 col-md-3"></div>
             </div>
         </div>
     </header>
-    <section>
-        History
+    <section class="container-fluid">
+        <ul class="nav nav-tabs nav-justified">
+            <li role="presentation" class="active">
+                <a data-toggle="tab" href="#history"><img class="img-responsive img-circle change-width" src="http://seeklogo.com/images/D/Dream_Theater_Hexagon-logo-2E6D79E43B-seeklogo.com.gif" alt="History"></a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#jhon"><img class="img-responsive img-circle change-width" src="http://bhimbim.freetzi.com/projekimk06pat/Images/Band%20Personnel/John%20Petrucci.png" alt="John Petrucci"></a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#james"><img class="img-responsive img-circle change-width" src="http://bhimbim.freetzi.com/projekimk06pat/Images/Band%20Personnel/James%20Labrie.png" alt="James LaBrie"></a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#myung"><img class="img-responsive img-circle change-width" src="http://bhimbim.freetzi.com/projekimk06pat/Images/Band%20Personnel/John%20Myung%20.png" alt="John Myung"></a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#jordan"><img class="img-responsive img-circle change-width" src="http://bhimbim.freetzi.com/projekimk06pat/Images/Band%20Personnel/Jordan%20Rudess.png" alt="Jordan Rudess"></a>
+            </li>
+            <li role="presentation">
+                <a data-toggle="tab" href="#mike"><img class="img-responsive img-circle change-width" src="http://www.recordingreviews.com/img/737/mangini.jpg" alt="Mike Mangini"></a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="history" class="tab-pane active">
+                <dl class="dl-horizontal">
+                    <dt><h3>History</h3></dt>
+                    <hr>
+                    <dd>
+                        <p class="text-justify">Dream Theater is an American progressive metal band formed in 1985 under the name Majesty by John Petrucci, John Myung, and <a href="https://en.wikipedia.org/wiki/Mike_Portnoy" target="_blank">Mike Portnoy</a> while they attended Berklee College of Music in Massachusetts. They subsequently dropped out of their studies to concentrate further on the band that would ultimately become Dream Theater. Though a number of lineup changes followed, the three original members remained together along with James LaBrie and Jordan Rudess until September 8, 2010 when Portnoy left the band. In October 2010, the band held auditions for a drummer to replace Portnoy. Mike Mangini was announced as the new permanent drummer on April 29, 2011.</p>
+
+                        <p class="text-justify">The band is well known for the technical proficiency of its instrumentalists, who have won many awards from music instruction magazines. Guitarist John Petrucci has been named as the third player on the G3 tour six times, more than any invited players. In 2009 he was named the No. 2 best metal guitarist by Joel McIver in his book The 100 Greatest Metal Guitarists. He was also named as one of the "Top 10 Fastest Shredders of All Time" by GuitarOne magazine. Jordan Rudess is considered to be one of the greatest keyboard players of all time by many publications like MusicRadar. Former drummer Mike Portnoy has won 26 awards from Modern Drummer magazine and is also the second youngest person (at the age of 37) to be inducted into the Rock Drummer Hall of Fame. His replacement Mike Mangini has also previously set 5 WFD records. John Myung was voted the greatest bassist of all time in a poll conducted by MusicRadar in August through September 2010. The band was inducted into the Long Island Music Hall of Fame in 2010.</p>
+                    </dd>
+                    <hr>
+                    <h4>Studio albums</h4>
+                    <dt>1988</dt>
+                    <dd><strong>When Dream and Day Unite</strong></dd>
+                    <dd><u>Released:</u> March 6, 1989</dd>
+                    <dd><u>Label:</u> Mechanic, MCA</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>1992</dt>
+                    <dd><strong>Images and Words</strong></dd>
+                    <dd><u>Released:</u> July 7, 1992</dd>
+                    <dd><u>Label:</u> Atco</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>1994</dt>
+                    <dd><strong>Awake</strong></dd>
+                    <dd><u>Released:</u> October 4, 1994</dd>
+                    <dd><u>Label:</u> East West</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>1997</dt>
+                    <dd><strong>Falling into Infinity</strong></dd>
+                    <dd><u>Released:</u> September 23, 1997</dd>
+                    <dd><u>Label:</u> East West</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>1999</dt>
+                    <dd><strong>Metropolis Pt. 2: Scenes from a Memory</strong></dd>
+                    <dd><u>Released:</u> October 26, 1999</dd>
+                    <dd><u>Label:</u> Elektra</dd>
+                    <dd><u><u>Format:</u></u> CD, cassette</dd>
+
+                    <dt>2002</dt>
+                    <dd><strong>Six Degrees of Inner Turbulence</strong></dd>
+                    <dd><u>Released:</u> January 29, 2002</dd>
+                    <dd><u>Label:</u> Elektra</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>2003</dt>
+                    <dd><strong>Train of Thought</strong></dd>
+                    <dd><u>Released:</u> November 11, 2003</dd>
+                    <dd><u>Label:</u> Elektra</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>2005</dt>
+                    <dd><strong>Octavarium</strong></dd>
+                    <dd><u>Released:</u> June 7, 2005</dd>
+                    <dd><u>Label:</u> Atlantic</dd>
+                    <dd><u>Format:</u> CD, cassette, LP</dd>
+
+                    <dt>2007</dt>
+                    <dd><strong>Systematic Chaos</strong></dd>
+                    <dd><u>Released:</u> June 5, 2007</dd>
+                    <dd><u>Label:</u> Roadrunner</dd>
+                    <dd><u>Format:</u> CD, DVD, LP, download</dd>
+
+                    <dt>2009</dt>
+                    <dd><strong>Black Clouds & Silver Linings</strong></dd>
+                    <dd><u>Released:</u> June 23, 2009</dd>
+                    <dd><u>Label:</u> Roadrunner</dd>
+                    <dd><u>Format:</u> CD, LP, download</dd>
+
+                    <dt>2011</dt>
+                    <dd><strong>A Dramatic Turn of Events</strong></dd>
+                    <dd><u>Released:</u> September 13, 2011</dd>
+                    <dd><u>Label:</u> Roadrunner</dd>
+                    <dd><u>Format:</u> CD, DVD, LP, download</dd>
+
+                    <dt>2013</dt>
+                    <dd><strong>Dream Theater</strong></dd>
+                    <dd><u>Released:</u> September 24, 2013</dd>
+                    <dd><u>Label:</u> Roadrunner</dd>
+                    <dd><u>Format:</u> CD, DVD, LP, download</dd>
+
+                    <dt>2016</dt>
+                    <dd><strong>The Astonishing</strong></dd>
+                    <dd><u>Released:</u> January 29, 2016</dd>
+                    <dd><u>Label:</u> Roadrunner</dd>
+                    <dd><u>Format:</u> CD, LP, download</dd>
+                </dl>
+            </div>
+            <div id="jhon" class="tab-pane text-justify">
+                <h3>Biography</h3><hr>
+                <p>ohn Petrucci was born on July 12, 1967 in Kings Park, New York to an Italian American family. He picked up the guitar at the age of eight because his older sister was allowed to go to bed later in order to practice the piano. However, he decided to quit the guitar when his attempts to stay up late were unsuccessful. He picked up the guitar again at the age of 12. Petrucci has said he committed to practicing guitar 6 hours a day when he discovered it was his passion. His early influences were bands like Led Zeppelin, Black Sabbath, AC/DC, and later developed an interest in progressive rock and heavy metal, exemplified by Rush, Yes, Iron Maiden, Dixie Dregs and Metallica.</p>
+
+                <p>Eventually, his childhood friend and future Dream Theater keyboardist Kevin Moore invited Petrucci to join his cover band. Petrucci attended Berklee College of Music in Boston with childhood friend John Myung (bass), where they met future bandmate Mike Portnoy (drums). While in Berklee they often covered two of their biggest influences, Iron Maiden and Rush. These three, in addition to Kevin Moore, formed the band Majesty. Because there was already another band with the same name, the group later became Dream Theater.</p>
+
+                <p>While Petrucci is most commonly associated with Dream Theater, he is also in the project band Liquid Tension Experiment, and has appeared as a guest on records by other artists, such as the Age of Impact album by the Explorer's Club.</p>
+
+                <p>Petrucci has released a guitar instructional video, Rock Discipline, which covers warm-up exercises, exercises to avoid injury while playing, alternate picking, sweep picking, chords and other techniques for developing one's guitar playing. Petrucci also has a book named "Guitar World presents John Petrucci's Wild Stringdom", which was compiled from columns he wrote for Guitar World magazine under that title.</p>
+
+                <p>In 2001, Joe Satriani and Steve Vai invited Petrucci to tour with them on the popular G3 guitar tour, which exposed him to a massive number of new fans and inspired a solo album. The album, Suspended Animation, was released on March 1, 2005, and was available for order from his web site. Petrucci also appeared on the 2005 and 2006 G3 tours, and in 2007, went on G3 tour again, this time with Paul Gilbert and Joe Satriani. In a recent video with Larry DiMarzio, Petrucci announced that he is working on a follow up to his 2004 album, Suspended Animation and a new Dream Theater album.</p>
+
+                <p>Petrucci also wrote and recorded two instrumental soundtrack songs for a Sega Saturn game titled Digital Pinball: Necronomicon. Each track is roughly two minutes long, and are named simply Prologue and Epilogue. In a spoof rock band, Nightmare Cinema (which was the Dream Theater members changing instruments for a gig), he used the "alternate stage name" Johnny James.</p>
+
+                <p>In 2012, Petrucci was invited once again to join Joe Satriani in his G3 tour with Steve Morse. His Dream Theater drummer Mike Mangini, and his former G3 bass player Dave LaRue accompanied him on the tour.</p>
+
+                <p>Dream Theater bandmate Jordan Rudess revealed in an interview that Petrucci is a practicing Catholic. He currently lives in St. James, New York with his wife Rena Sands, a guitarist in the all-female heavy metal band Meanstreak, and they have three children—twins Samantha and Renato, and Kiara. He is the uncle of Jake Bowen, a guitarist in the progressive metal band Periphery. He is also an avid fan of bodybuilding and dedicates much of his off time to weight training. He is a voting member of NARAS.</p>
+            </div>
+            <div id="james" class="tab-pane">
+                <h3>Biography</h3><hr>
+                <p>Kevin James LaBrie was born in Penetanguishene, Ontario, Canada and started playing drums at age 5. By his mid-teens, he was a member of several bands as a front man that attempted singing and/or drumming. He stopped playing drums at age 17 and in 1981, at age 18, he moved to Toronto.</p>
+                
+                <h4>Influences</h4>
+                <p>His musical inspiration comes from many different genres, including such artists as Sebastian Bach, Aerosmith, Don Dokken, Metallica, The Doors, Ludwig van Beethoven, Nat King Cole, Queen, Sting, and Muse whose inspiration, according to LaBrie, is shown on Dream Theater's album, Octavarium.</p>
+
+                <h4>Reception</h4>
+                <p>LaBrie is widely known for his lyric tenor style singing voice. He was voted by fans to #15 on MusicRadar's "The greatest vocalists of all time" in 2010. During his career with Dream Theater, LaBrie's singing voice has also attracted criticism due to his inconsistent pitch and breathlessness during some live performances. In response to detractors of his vocal abilities, LaBrie has said, "These people are pathetic and need to move on. I say get a life and maybe work on making your life a better one instead of thinking the answer lies in cutting someone else up to raise your miserable spirit."</p>
+
+                <h4>Food poisoning incident</h4>
+                <p>On December 29, 1994, while vacationing in Cuba, LaBrie was stricken with a severe case of food poisoning from contaminated shrimp and while vomiting, he ruptured his vocal cords. He saw three throat specialists who all said there was nothing they could do except have him rest his voice as much as possible. However, on January 12, 1995, and against doctor's orders, he was on the Waking Up the World Tour in Japan promoting Awake album with his voice far from normal. LaBrie has said he did not feel vocally "normal" until at least 2002. LaBrie has said that this was a very hard time for him as a singer, and depression as a result caused him to consider departing from the band, although his bandmates supported him and told him to stay. After the Six Degrees of Inner Turbulence's World Tourbulence he discovered that his voice had fully returned. He has said that his voice was fully healed by time and training.</p>
+            </div>
+            <div id="myung" class="tab-pane text-justify">
+                <h3>Biography</h3><hr>
+                <p>Born in Chicago, Illinois, to Korean parents, Myung grew up in Kings Park, Long Island, New York. He played the violin from the age of five until he was asked to play electric bass in a local band when he was fifteen, which he accepted. After graduating from high school he and his high school friend John Petrucci enrolled at the Berklee College of Music, where they met future bandmate Mike Portnoy. The three formed the band Majesty, later adding keyboardist Kevin Moore and vocalist Chris Collins. The band would change its name to Dream Theater shortly before the release of their first album.</p>
+
+                <p>Though Dream Theater is his primary focus musically, he has appeared in a number of other projects through his career. His first was the progressive rock supergroup Platypus, with Rod Morgenstein, Ty Tabor and ex-Dream Theater bandmate Derek Sherinian. After Platypus disbanded in 2000, Myung, Tabor, and Morgenstein recorded two albums as the Jelly Jam. Apart from his membership in these bands, he has appeared as a guest on numerous records. On Dream Theater's Falling Into Infinity tour, Myung served as the keyboardist for Nightmare Cinema, a fictional band featuring the members of Dream Theater playing instruments other than their primary one.</p>
+
+                <p>Myung's favorite bands include the Beatles, Black Sabbath, the Who, Iron Maiden, Rush, Yes, Jethro Tull and Genesis. He cites bassists Geezer Butler, John Entwistle, Chris Squire, Steve Harris, Geddy Lee and Jaco Pastorius as the main influences on his playing style.</p>
+
+                <p>Myung is married to Lisa Martens Pace, the bass player in the defunct all-female heavy metal band Meanstreak. Two other members of the band, Rena Sands and Marlene Apuzzo, are married to Petrucci and Portnoy, respectively.</p>
+            </div>
+            <div id="jordan" class="tab-pane text-justify">
+                <h3>Biography</h3><hr>
+                <p>Rudess was born in 1956 into a Jewish family. He was recognized by his 2nd grade teacher for his piano playing and was immediately given professional instruction. At nine, he entered the Juilliard School of Music Pre-College Division for classical piano training, but by his late teens he had grown increasingly interested in synthesizers and progressive rock music. Against the counsel of his parents and tutors, he turned away from classical piano and tried his hand as a solo progressive rock keyboardist.</p>
+
+                <p>When Bleu Ocean was assembling a team of fellow drummers to perform on the song "Bring the Boys Back Home", featured at Pink Floyd's The Wall, he invited Rudess for the session, since the keyboardist had been playing drums for a while. However, Rudess's performance was rejected by producer Bob Ezrin. At that time, Rudess had already chosen the keyboards as his main instrument.</p>
+
+                <p>After performing in various projects during the 1980s, he gained international attention in 1994 when he was voted "Best New Talent" in the Keyboard Magazine readers' poll after the release of his Listen solo album. Two of the bands who took notice of Rudess were The Dixie Dregs and Dream Theater, both of whom invited him to join. Rudess chose the Dregs, primarily as being a part-time member of the band would have less of an impact on his young family, a choice he was not given with Dream Theater.</p>
+
+                <p>During his time with the Dregs, Rudess formed a "power duo" with drummer Rod Morgenstein. The genesis of this pairing occurred when a power outage caused all of the Dregs' instruments to fail except Rudess', so he and Morgenstein improvised with each other until power was restored and the concert could continue. The chemistry between the two was so strong during this jam that they decided to perform together on a regular basis (under the name Rudess/Morgenstein Project or later RMP) and have since released a studio and a live record.</p>
+
+                <p>Rudess encountered Dream Theater once again when he and Morgenstein secured the support slot on one of Dream Theater's North American tours.</p>
+
+                <p>In 1997, when Mike Portnoy was asked to form a supergroup by Magna Carta Records, Rudess was chosen to fill the keyboardist spot in the band, which also consisted of Tony Levin and Portnoy's Dream Theater colleague John Petrucci. During the recording of Liquid Tension Experiment's two albums it became evident to Portnoy and Petrucci that Rudess was what Dream Theater needed. They asked Rudess to join the band, and when he accepted they released their then-keyboardist Derek Sherinian to make way for him.</p>
+
+                <p>Rudess has been the full-time keyboardist in Dream Theater since the recording of 1999's Metropolis Pt. 2: Scenes from a Memory. He has recorded eight other studio albums with the group: 2002's Six Degrees of Inner Turbulence, 2003's Train of Thought, 2005's Octavarium, 2007's Systematic Chaos, 2009's Black Clouds & Silver Linings, 2011's A Dramatic Turn of Events, 2013's Dream Theater, and 2016's The Astonishing. In addition, he has appeared on the live albums Live Scenes From New York, Live at Budokan, Score, Chaos in Motion, Live at Luna Park and Breaking the Fourth Wall.</p>
+
+                <p>In addition to working with Dream Theater he occasionally records and performs in other contexts, such as a 2001 one-off duo performance with Petrucci (released as the CD An Evening With John Petrucci and Jordan Rudess), as well as backing up Blackfield on their first short US tour in 2005 and playing a solo opening slot for them on their second in 2007. He also contributed to Steven Wilson's 2011 album, Grace for Drowning.</p>
+
+                <p>In 2010, Rudess composed "Explorations for Keyboard and Orchestra," his first classical composition. It was premiered in Venezuela on November 19, 2010 by the Chacao Youth Symphony Orchestra and guest conductor Eren Başbuğ. Rudess played all of the keyboard and synthesizer parts.</p>
+
+                <p>On July 28, 2011, in a poll conducted by MusicRadar, Rudess was voted the best keyboardist of all time.</p>
+
+                <p>Rudess says his influences as a keyboardist are Keith Emerson, Tony Banks, Rick Wakeman and Patrick Moraz. His favorite musical artists and groups include Gentle Giant, Yes, Genesis, Pink Floyd, Emerson, Lake & Palmer, King Crimson, Jimi Hendrix, Autechre, and Aphex Twin.</p>
+
+                <p>Rudess appeared on the Ayreon album, The Theory of Everything released on October 28, 2013.</p>
+            </div>
+            <div id="mike" class="tab-pane text-justify">
+                <h3>Biography</h3><hr>
+                <p>Born in Newton, Massachusetts,[citation needed] Mangini first started playing the drums when he was two and a half years old, being inspired by Ringo Starr of The Beatles. He would practice two to four hours a day and by the time he was nine he was already mimicking Buddy Rich performances. Other influences include Bobby Colomby, Danny Seraphine, John Bonham, Neil Peart and Terry Bozzio.</p>
+
+                <p>By high school, he was performing in bands and participating in the prestigious All-State, and All-Eastern United States ensembles.</p>
+
+                <p>After graduating from Waltham Senior High School in 1981, Mangini put aside his music studies to pursue a computer science major at Bentley University. After graduating Mike started programming software for the Patriot Missile program. At the same time, he was working on a program that studied the links between the human brain and body.</p>
+
+                <p>In 1987, Mangini scored one of his first high-profile gigs, playing drums for Boston's Rick Berlin Band. This would be his first collaboration with bassist Philip Bynoe. He also taught drums privately in Boston during this time.</p>
+            </div>
+        </div>
     </section>
-    <footer>Xavier Sumba</footer>
-    
+    <footer class="text-center">
+        Copyright © 2016 - Xavier Sumba | <font color="rgb(236,94,82)">Text copied from <a href="https://www.wikipedia.org/" target="_blank">Wikipedia.</a></font> | Official Website: <a href="http://www.dreamtheater.net/" target="_blank">http://www.dreamtheater.net/</a>
+    </footer>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
