@@ -1,0 +1,27 @@
+{
+  "name": "Show the Local Weather",
+  "homepage": "https://github.com/cuent/FreeCodeCampProjects",
+  "authors": [
+    "cuent <c.uent@hotmail.com>"
+  ],
+  "description": "Show local Weather - Free Code Camp Project",
+  "main": "index.html",
+  "keywords": [
+    "weather",
+    "geolocation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-switch": "^3.3.2",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  },
+  "private": true
+}
