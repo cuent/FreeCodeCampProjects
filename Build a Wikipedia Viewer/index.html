@@ -13,19 +13,24 @@
 
 <body>
 
-    <section>
-        <div class="text-center">
-            <span><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article</a></span>
-        </div>
+    <section class="container">
         <div>
-            <h1>Computer Search Wikipedia API</h1> <span class="glyphicon glyphicon-search"></span>
-            <span>https://en.wikipedia.org//w/api.php?action=query&format=json&prop=extracts%7Cpageimages&generator=search&exsentences=1&exlimit=20&exintro=1&explaintext=1&pilimit=50&gsrsearch=computer&gsrnamespace=0&gsrlimit=5</span>
+            <h1 class="text-center">Wikipedia Searcher</h1>
+            <div class="input-group input-group-lg">
+                <input id="searchText" type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button id="search" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                <a class="btn btn-default" href="https://en.wikipedia.org/wiki/Special:Random" role="button" target="_blank"><span class="glyphicon glyphicon-random"></span></a>
+                </span>
+            </div>
         </div>
     </section>
 
     <section>
         <div>
-            <h2>Results</h2>
+            <ul id="results" style="list-style-type:none">
+
+            </ul>
         </div>
     </section>
 
