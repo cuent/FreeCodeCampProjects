@@ -1,0 +1,14 @@
+button {
+    width: 50px;
+    height: 40px;
+}
+
+.row{
+    padding: 2px;
+}
+
+#calculator{
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 5px;
+}
