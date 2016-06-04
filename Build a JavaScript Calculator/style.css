@@ -8,7 +8,15 @@ button {
 }
 
 #calculator{
-    border: 1px solid blue;
-    border-radius: 25px;
+    border: 3px solid blue;
+    border-radius: 20px;
     padding: 5px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#text{
+    font-size: 20px;
+    display: block;
+    text-align: right
 }
