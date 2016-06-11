@@ -1,0 +1,23 @@
+body {
+    padding: 5% 8%;
+}
+
+button {
+    width: 60px;
+}
+
+#clock {
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    border-radius: 50% 50%;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15pt;
+}
+
+button.label {
+    width: 26.5px;
+}

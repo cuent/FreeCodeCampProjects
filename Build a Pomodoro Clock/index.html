@@ -9,20 +9,35 @@
     <title>Pomodoro Clock</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
-
-    <h1>Pomodoro Clock</h1>
-
-
-    <div>
-        <label>25:00</label>
+    <div class="container text-center">
+        <div id="clock">
+            <div class="row">
+                <button id="upMin" class="label label-default">+</button>
+                <button id="upSec" class="label label-default">+</button>
+            </div>
+            <div class="row">
+                <label id="screen">25:00</label>
+            </div>
+            <div class="row">
+                <button id="downMin" class="label label-default">-</button>
+                <button id="downSec" class="label label-default">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">
+                <button id="start" class="btn btn-danger btn-sm">START</button>
+                <button id="stop" class="btn btn-primary btn-sm">STOP</button>
+                <button id="reset" class="btn btn-default btn-sm">RESET</button>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
     </div>
-
-    <button class="label label-danger">start</button>
-    <button class="label label-primary">stop</button>
-    <button class="label label-default">reset</button>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

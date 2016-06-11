@@ -19,7 +19,7 @@ This is a repository for all projects that I been working on to finish the [Free
 ### Advanced Front End Development Projects
 
 - [x]  Build a JavaScript Calculator
-- [ ]  Build a Pomodoro Clock Incomplete.
+- [x]  Build a Pomodoro Clock Incomplete.
 - [ ]  Build a Tic Tac Toe Game Incomplete.
 - [ ]  Build a Simon Game Incomplete.
 
