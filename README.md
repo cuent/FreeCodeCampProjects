@@ -2,25 +2,25 @@
 
 This is a repository for all projects that I been working on to finish the [FreeCodeCamp Curriculum](https://www.freecodecamp.com).
 
-## Fron End Development Certification
+## Front End Development Certification
 
 ### Basic Front End Development Projects
 
-- [x] Build a Tribute Page
-- [x] Build a Personal Portfolio Webpage
+- [x] [Build a Tribute Page](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Basic%20Front%20End%20Development%20Projects/Build%20a%20Tribute%20Page)
+- [x] [Build a Personal Portfolio Webpage](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Basic%20Front%20End%20Development%20Projects/Build%20a%20Personal%20Portfolio%20Webpage)
 
 ### Intermediate Front End Development Projects
 
-- [x] Build a Random Quote Machine
-- [x] Show the Local Weather
-- [x] Build a Wikipedia Viewer
-- [x] Use the Twitch.tv JSON API
+- [x] [Build a Random Quote Machine](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Intermediate%20Front%20End%20Development%20Projects/Build%20a%20Random%20Quote%20Machine)
+- [x] [Show the Local Weather](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Intermediate%20Front%20End%20Development%20Projects/Show%20the%20Local%20Weather)
+- [x] [Build a Wikipedia Viewer](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Intermediate%20Front%20End%20Development%20Projects/Build%20a%20Wikipedia%20Viewer)
+- [x] [Use the Twitch.tv JSON API](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Intermediate%20Front%20End%20Development%20Projects/Use%20the%20Twitchtv%20JSON%20API)
 
 ### Advanced Front End Development Projects
 
-- [x]  Build a JavaScript Calculator
-- [x]  Build a Pomodoro Clock.
-- [ ]  Build a Tic Tac Toe Game **Working on.
+- [x]  [Build a JavaScript Calculator](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20JavaScript%20Calculator)
+- [x]  [Build a Pomodoro Clock](https://github.com/cuent/FreeCodeCampProjects/tree/master/Fron%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20Pomodoro%20Clock)
+- [ ]  Build a Tic Tac Toe Game (*Working on*).
 - [ ]  Build a Simon Game.
 
 ## Data Visualization Certification
