@@ -19,44 +19,44 @@ This is a repository for all projects that I been working on to finish the [Free
 ### Advanced Front End Development Projects
 
 - [x]  Build a JavaScript Calculator
-- [x]  Build a Pomodoro Clock Incomplete.
-- [ ]  Build a Tic Tac Toe Game Incomplete.
-- [ ]  Build a Simon Game Incomplete.
+- [x]  Build a Pomodoro Clock.
+- [ ]  Build a Tic Tac Toe Game **Working on.
+- [ ]  Build a Simon Game.
 
 ## Data Visualization Certification
 
 ### React Projects
 
 
-- [ ]  Build a Markdown Previewer Incomplete.
-- [ ]  Build a Camper Leaderboard Incomplete.
-- [ ]  Build a Recipe Box Incomplete.
-- [ ]  Build the Game of Life Incomplete.
-- [ ]  Build a Roguelike Dungeon Crawler Game Incomplete.
+- [ ]  Build a Markdown Previewer.
+- [ ]  Build a Camper Leaderboard.
+- [ ]  Build a Recipe Box.
+- [ ]  Build the Game of Life.
+- [ ]  Build a Roguelike Dungeon Crawler Game.
 
 ### Data Visualization Projects
 
-- [ ]  Visualize Data with a Bar Chart Incomplete.
-- [ ]  Visualize Data with a Scatterplot Graph Incomplete.
-- [ ]  Visualize Data with a Heat Map Incomplete.
-- [ ]  Show National Contiguity with a Force Directed Graph Incomplete.
-- [ ]  Map Data Across the Globe Incomplete.
+- [ ]  Visualize Data with a Bar Chart.
+- [ ]  Visualize Data with a Scatterplot Graph.
+- [ ]  Visualize Data with a Heat Map.
+- [ ]  Show National Contiguity with a Force Directed Graph.
+- [ ]  Map Data Across the Globe.
 
 ## Back End Development Certification
 
 ### API Projects
 
-- [ ]  Get Set for our Back End Development Projects Incomplete. 
-- [ ]  Timestamp Microservice Incomplete.
-- [ ]  Request Header Parser Microservice Incomplete.
-- [ ]  URL Shortener Microservice Incomplete.
-- [ ]  Image Search Abstraction Layer Incomplete.
-- [ ]  File Metadata Microservice Incomplete.
+- [ ]  Get Set for our Back End Development Projects.
+- [ ]  Timestamp Microservice.
+- [ ]  Request Header Parser Microservice.
+- [ ]  URL Shortener Microservice.
+- [ ]  Image Search Abstraction Layer.
+- [ ]  File Metadata Microservice.
 
 ### Dynamic Web Application Projects
 
-- [ ]  Build a Voting App Incomplete.
-- [ ]  Build a Nightlife Coordination App Incomplete.
-- [ ]  Chart the Stock Market Incomplete.
-- [ ]  Manage a Book Trading Club Incomplete.
-- [ ]  Build a Pinterest Clone Incomplete.
+- [ ]  Build a Voting App.
+- [ ]  Build a Nightlife Coordination App.
+- [ ]  Chart the Stock Market.
+- [ ]  Manage a Book Trading Club.
+- [ ]  Build a Pinterest Clone.
