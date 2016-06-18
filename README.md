@@ -20,7 +20,7 @@ This is a repository for all projects that I been working on to finish the [Free
 
 - [x]  [Build a JavaScript Calculator](https://github.com/cuent/FreeCodeCampProjects/tree/master/Front%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20JavaScript%20Calculator)
 - [x]  [Build a Pomodoro Clock](https://github.com/cuent/FreeCodeCampProjects/tree/master/Front%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20Pomodoro%20Clock)
-- [ ]  [Build a Tic Tac Toe Game](https://github.com/cuent/FreeCodeCampProjects/tree/master/Front%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20Tic%20Tac%20Toe%20Game) (*Working on*).
+- [x]  [Build a Tic Tac Toe Game](https://github.com/cuent/FreeCodeCampProjects/tree/master/Front%20End%20Development%20Certification/Advanced%20Front%20End%20Development%20Projects/Build%20a%20Tic%20Tac%20Toe%20Game).
 - [ ]  Build a Simon Game.
 
 ## Data Visualization Certification
