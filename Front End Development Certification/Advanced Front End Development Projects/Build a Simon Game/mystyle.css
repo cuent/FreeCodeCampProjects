@@ -1,0 +1,27 @@
+.container{
+  border: solid 1px black;
+  width: 10%;
+  height: 50%;
+  border-radius: 100%;
+}
+
+.green{
+  background-color: green;
+  border-radius: 50%;
+}
+
+.red{
+  background-color: red;
+}
+
+.center{
+  background-color: black;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}
