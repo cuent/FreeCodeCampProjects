@@ -1,27 +1,33 @@
-.container{
-  border: solid 1px black;
-  width: 10%;
-  height: 50%;
-  border-radius: 100%;
+#circle-container{
+  width:200px;
+  height:200px;
 }
 
-.green{
-  background-color: green;
-  border-radius: 50%;
+.quarter{
+    width:100px;
+    height:100px;
 }
 
-.red{
-  background-color: red;
+.top-left{
+  border-top-left-radius:100px;
+  background:green;
+  float:left;
 }
 
-.center{
-  background-color: black;
+.top-right{
+  border-top-right-radius:100px;
+  background:red;
+  float:right;
 }
 
-.yellow{
-  background-color: yellow;
+.bottom-left{
+  border-bottom-left-radius:100px;
+  background:yellow;
+  float:left;
 }
 
-.blue{
-  background-color: blue;
+.bottom-right{
+  border-bottom-right-radius:100px;
+  background:blue;
+  float:right
 }
